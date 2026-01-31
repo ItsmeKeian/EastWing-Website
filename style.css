@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+.wrapper{
+  
+  width: 430px;
+  height: 450px;
+  padding: 2rem 1 rem;
+  margin: 160px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.wrapper1{
+  height: 390px;
+  width: 400px;
+  padding-top: 40px;
+  margin: 160px auto;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-size: 2rem;
+  color: #07001f;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font: sans-serif;
+
+}
+form input{
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin: 2px;
+  border-radius: 20px;
+  background: #e4e4e4;
+}
+button{
+  font-size: 1rem;
+  margin-top: 1.0rem;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 90%;
+  color: #fff;
+  cursor: pointer;
+  background: rgb(17, 107, 143);
+}
+button:hover{
+  background: rgba(17, 107, 143, 0/877);
+}
+input:focus{
+  border: 1px solid rgb(192, 192, 192);
+}
+.terms{
+  margin-top: 0.2rem;
+}
+.terms input{
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+.terms label{
+  font-size: 0.7rem;
+}
+.terms a{
+  text-decoration: none;
+  color: rgb(17, 107, 143);
+}
+.member{
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #646464;
+}
+.member a{
+  color: rgb(17, 107, 143);
+  text-decoration: none;
+}
+.recover{
+  text-align: right;
+  font-size: 0.7rem;
+  margin: 10px 30px 0px 0px;
+
+}
+.recover a{
+  text-decoration: none;
+  color: #464647;
+}
+.selector{
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin: 2px;
+  border-radius: 20px;
+  background: #e4e4e4;
+}
+.container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 739px;
+
+}
+
+.box {
+  width: 400px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  margin: 0px;
+}
+  .box1 {
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px;
+  }
+
+.box a{
+  margin-top: 100px;
+  width: 00%;
+  height: 30px;
+  padding: 80px 136px 80px 136px;
+  border: none;
+  border-radius: 9px 9px 9px 9px;
+  background: black;
+  color: red;
+}
+.box1 a{
+  width: 00%;
+  height: 30px;
+  padding: 80px 76px 80px 77px;
+  border-radius: 9px 9px 9px 9px;
+  border: none;
+  background: black;
+  color: red;
+
+}
+
+

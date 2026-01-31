@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>THE EAST WINGS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Mar 09 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="../logo.png" alt="">
+        
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+           
+
+        
+           
+
+           
+
+         
+
+           
+
+           
+
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+          
+
+          
+           
+
+           
+           
+
+          
+
+         
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="../logo.png" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+           
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="../index.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+   <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="dashboard.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+
+  <li class="nav-item">
+        <a class="nav-link collapsed" href="booking.html">
+          <i class="bi bi-journal-text"></i>
+          <span>Booking</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+
+      
+
+
+
+
+
+  
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../index.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Logout</span>
+        </a>
+      </li><!-- End Login Page Nav -->
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Booking Reservation</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="dashboard.html">Booking</a></li>
+         
+          <li class="breadcrumb-item active"></li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+
+
+
+
+                <div style="overflow: scroll ;max-height: 500px; width: 100%;">
+                      <table id="allrecords"  class="table table-bordered">
+                  <thead>
+                    <tr>
+                     
+                     <th>Select</th>
+                    
+                     
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                        <th scope="col">Address</th>
+                         <th scope="col">Name of Event </th>
+                        <th scope="col">Date of Event</th>
+            
+
+                    
+                     
+                              </tr>
+                  </thead>
+                   
+
+                  
+
+              </table>          
+                    </div>
+                    <br>
+
+                     <button id="view" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">View</button>
+
+
+                    <button id="delete" class="btn btn-success" fdprocessedid="ykz7xk">Delete</button>
+
+
+                </div>
+
+                <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Booking</h4>
+        </div>
+        <div class="modal-body">
+          
+
+          <form>
+  <div class="row">
+    <div class="col">
+      <label>Full name</label>
+      <input type="text" class="form-control" id="1">
+    </div>
+    <div class="col">
+       <label>Phone No.</label>
+      <input type="number" class="form-control" id="2">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+      <label>Email</label>
+      <input type="email" class="form-control" id="3">
+    </div>
+    <div class="col">
+      <label>Address</label>
+      <input type="text" class="form-control" id="4">
+    </div>
+  </div>
+
+  
+
+  <div class="row">
+    <div class="col">
+      <label>Date of Event</label>
+      <input type="date" class="form-control" id="5">
+    </div>
+    <div class="col">
+      <label>Time of Event</label>
+      <input type="time" class="form-control" id="6" >
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col">
+      <label>Select Event</label>
+      <select class="form-control" name="department" id="7" required="required">
+                          <option value="">Select Event</option>
+                          <option value="wedding">Wedding </option>
+                          <option value="birthday ">Birthday</option>
+                          <option value="cataering">Catering</option>
+                          <option value="mobile bar">Mobile Bar</option>
+                          <option value="Other">Other</option>
+                        </select>
+    </div>
+    <div class="col">
+      <label>Message</label>
+      <input type="text" class="form-control" id="8" >
+    </div>
+
+  </div>
+  <input type="text" class="form-control" id="9" hidden >
+</form>
+
+
+        </div>
+
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button id="update" class="btn btn-default" fdprocessedid="ykz7xk">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+              </div><!-- End Default Tabs -->
+
+            </div>
+    
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+     
+    </div>
+    <div class="credits">
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<!-- Slimscroll -->
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- fullCalendar -->
+<script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <script>
+$(function () {
+
+
+
+    function counta() {
+    var type = "Total";
+
+    $.ajax({
+        type: "POST",
+        url: "../php/count.php",
+        dataType: "json",
+        data: {
+            type: type
+        },
+        success: function(result) {
+            var _res = result;
+            if (_res.status == 1) {
+                $("#a1").text(_res.unid);
+            }
+        }
+    });
+}
+
+
+$(window).on("load", function() {
+    counta();
+    
+});
+
+
+
+  function getfac(){
+
+                
+      let x = decodeURIComponent(document.cookie);
+
+                      if(x == "as"){
+
+
+                        window.location="index.html"
+                      }
+
+
+                      else{
+
+                         
+                          
+                        
+
+                        getcurrentuser(x);
+                       //  getpic(x);
+
+                      }
+
+                  }
+
+
+
+
+                        function getcurrentuser(a){
+              
+
+                                        $.ajax({
+                                          type: "POST",
+                                          url: "php/retrievecurrentuser.php",
+                                          dataType: "json",
+                                            data: {
+                                              a:a, 
+                                             
+                                             
+                                         
+                                            },
+                                          success: function(result){
+                                            var _res = result;
+                                            if(_res.status == 1){
+
+                                          
+                                           
+                                             $("#name1").text(_res.a1 + " " + _res.a2 + " " + _res.a3);
+                                             $("#pos").text(_res.a6);
+                                             
+                                           
+
+
+
+
+                                             
+                                            } 
+                                          }
+                                        });}
+
+
+
+
+
+
+
+$(window).on("load", getfac());
+
+
+
+  $("#update").click(function(){
+
+
+                     var a= $("#1").val();
+                     var b= $("#2").val();
+                     var c= $("#3").val();
+                     var d= $("#4").val();
+                     var e= $("#5").val();
+                     var f= $("#6").val();
+                     var g= $("#7").val();
+                     var h= $("#8").val();
+                     var i= $("#9").val();
+                    
+                     
+                     
+                    
+                     
+                     
+            
+                      
+                   
+                   
+
+                        
+                     
+                    
+
+                    
+                  
+
+                    
+                    if (a.length > 0){
+
+                                       
+                       save(a,b,c,d,e,f,g,h,i);
+
+                      
+                    }
+
+                    else{
+
+                    alert("Please fill out fields!");
+                    }
+
+                  
+                            
+                          });
+
+
+    
+function   save(a,b,c,d,e,f,g,h,i){
+
+
+
+
+                  $.ajax({
+                  type: "POST",
+                  url: "../php/updatebooking.php",
+                  dataType: "json",
+                  data: {
+                      a:a,
+                      b:b,
+                      c:c,
+                      d:d,
+                      e:e,
+                      f:f,
+                      g:g,
+                      h:h,
+                      i:i,
+                     
+                     
+                      
+                   
+                  
+                      
+               
+                     
+                     
+
+                     
+                    
+                                     
+                            },
+                        
+                            success: function(result) { 
+                            var _res = result;
+                              if (_res.status == 1){
+
+                                  alert("Booking Successfully Updated!")
+                                  window.location = "booking.html";
+
+                           
+                              } else if(_res.status == 2){
+                                    alert("Update Failed!");
+                                  
+                              
+                          
+                           
+                              }
+                              
+                            }
+                          
+                             
+
+                          });
+                        }
+
+  var searchme;
+
+  $("#allrecords").click(function(){
+
+        searchme= $('input[name=rrec]:checked').val();
+       
+                            
+                       });
+
+
+    function  getclearancedata(a){
+     
+
+                                
+                          $.ajax({
+                            type: "POST",
+                            url: "../php/retrievebook.php",
+                            dataType: "json",
+                              data: {
+                               a:a,
+                               
+                            
+                              },
+                            success: function(result){
+                              var _res = result;
+                              if(_res.status == 1){
+
+                                
+                              
+                                
+                              $("#1").val(_res.a1);
+                              $("#2").val(_res.a2);
+                              $("#3").val(_res.a3);
+                              $("#4").val(_res.a4);
+                              $("#5").val(_res.a5);
+                              $("#6").val(_res.a6);
+                              $("#7").val(_res.a7);
+                              $("#8").val(_res.a8);
+                              $("#9").val(_res.a9);
+                             
+                             
+                              
+
+
+                               
+                                 
+
+                           
+                              } 
+                            }
+                          });}
+
+
+
+
+
+  loadallrecords(); 
+
+
+
+  $("#search").on("input", function(){
+
+                       var a= $("#search").val();
+
+                      filterrecords(a);
+                     
+
+                            
+                          });
+
+
+
+
+
+
+  $(document).ready(function () {
+            $('#view').on('click', function () {
+                getclearancedata(searchme);
+                $('myModal').modal('show');
+            });
+        });
+
+
+
+
+   })
+
+</script>
+
+</body>
+
+</html>
